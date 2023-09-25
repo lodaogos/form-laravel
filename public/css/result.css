@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+#result-container {
+    padding: 20px; /* Add padding around the form */
+    background-color: rgb(70, 255, 49); /* Set a background color for the container */
+    border: 1px solid #000000; /* Add a border around the container */
+    border-radius: 8px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.output{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#status{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(107, 193, 255);
+    border: 1px solid #000000; /* Add a border around the container */
+    border-radius: 8px; /* Add rounded corners to the container */
+    text-align: center;
+}
